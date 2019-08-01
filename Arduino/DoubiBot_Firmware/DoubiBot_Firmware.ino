@@ -3,12 +3,12 @@
 #include "WeatherUtils.h"
 
 //#define DRAW_WEATHER
-//#define DRAW_TIME
+#define DRAW_TIME
 
 
-const char* SSID = "***";				// 要连接的WiFi的名称
-const char* PASSWORD = "***";		// 要连接的WiFi的密码
-const char* CITY = "shanghai";
+const char* SSID = "MERCURY_AA96";				// 要连接的WiFi的名称
+const char* PASSWORD = "15886598616";		// 要连接的WiFi的密码
+//const char* CITY = "shanghai";
 
 Control control(12, 5, 14);
 
